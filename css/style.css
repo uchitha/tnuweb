@@ -938,7 +938,7 @@ input[type="color"]:focus,
 /****************************footer************************/
 #footer{
     background-color: #333;
-    padding: 35px 0 40px;
+    padding: 15px 0 10px;
     color: #969696;
     border-top: 4px solid #777;
 }
