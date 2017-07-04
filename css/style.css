@@ -322,6 +322,28 @@ p {
     line-height: 20px;
     font-size: 13px;
 }
+
+/*********bottom bar************/
+.bottom-bar-wrap{
+    padding: 6px 0;
+    background-color: #333;
+
+}
+.bottom-bar{
+    min-height: 10px;
+    line-height: 10px;
+}
+.bottom-bar a{
+    font-size: 12px;
+    color:#fff;
+}
+.bottom-bar .social-1 li a i{
+    width:20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 13px;
+}
+
 /*************************************************************/
 /************************** Buttons **************************/
 /*************************************************************/
