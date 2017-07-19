@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>TN'U - Specialists on Simplifications</title>
+        <title>TN'U - Simplification Specialists</title>
 
         <!-- Bootstrap -->
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -29,13 +29,13 @@
 
     </head>
     <body>
-          <div id='header'></div>
+        <div id='header'></div>
         <div id="menu"></div>
         <section class="bread-wrap">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
-                        <h4>Online Safety</h4>
+                        <h4>How safe are you online?</h4>
                     </div>
                     <div class="col-sm-6 hidden-xs text-right">
                         <ol class="breadcrumb">
@@ -46,54 +46,37 @@
                 </div>
             </div>
         </section><!--.bread-wrap-->
-        <div class="divide40"></div>
-        <div class="container">
+         <!-- <div class="container">    
             <div class="row">
-                <div class="col-md-6"> <h3 class="heading">Secure your online presence</h3> </div>
-                 <div class="col-md-6"><a href="#" class="btn btn-theme-bg pull-right">Free Online Safety Survey</a></div>
-            </div>
-            <div class="row">               
                 <div class="col-md-12">
-                  
-                    <p>Internet has become a core part of our day to day lives. We depend on it more than ever. However numerous recent experiences have taught us that it can get really dangerous. Virus attacks, ransomware, identity thefts and other forms of malicious online activities are part of daily news. The scary thing is that only the high profile instances of these gets in to news anyway. A vast majority of it never gets public.. </p>
-                    <p></p>
-                    <p>
-It has become increasingly difficult for the average Joe to keep up with this and ensure that he is protected. This is where we like to provide a variety of services to simplify the process of protecting your online activities.                     </p>
-                    <p>
-                     We have 3 levels of services.
-                    </p>
-               
+                    <h3 class="heading">Some Facts from last year</h3>
                 </div>
             </div>
-          
+            <div class="divide40"></div>
             <div class="row">
-               <div class="col-md-4 margin20">
-                    <div class="service-box wow animated fadeInLeft animated" data-wow-delay="800ms">
-                        <h4><i class="fa fa-search"></i> Assessment</h4>
-                        <p>
-                        We will sit with you to understand how you use the Internet in your day to day life. Identify various risks and discuss possible solutions. During the process you would gain a lot of insight in to online security in general.
-                        </p>
-                    </div><!--service box-->
-                </div><!--service-col-->
-                <div class="col-md-4 margin20">
-                    <div class="service-box wow animated fadeInLeft animated" data-wow-delay="200ms">
-                        <h4><i class="fa fa-shield"></i> Protection</h4>
-                        <p>
-                            Based on the findings of the assessment phase, we will implement protection methods. This includes configuring your devices / operating systems, 
-                            installation of protection software, subscribing to online security services etc...
-                        </p>
-                    </div><!--service box-->
-                </div><!--service-col-->
-                <div class="col-md-4 margin20">
-                    <div class="service-box wow animated fadeInLeft animated" data-wow-delay="600ms">
-                        <h4><i class="fa fa-bar-chart-o"></i> Continous Improvement</h4>
-                        <p>
-                            We will provide a monthly assessment session, discussing any of your concerns and also monitor the devices and online systems for any issues. 
-                        </p>
-                        <p>In addition we can provide an on demand service for any urgent issues</p>
-                    </div><!--service box-->
-                </div><!--service-col-->
+                <div class="col-md-3 margin20 facts-in">
+                    <h3><i class="fa fa-users"></i><span class="counter">6858</span></h3>
+                    <h4>Identify Thefts </h4>
+                </div>
+                <div class="col-md-3 margin20 facts-in">
+                    <h3><i class="fa fa-facebook"></i><span class="counter">685</span></h3>
+                    <h4>Facebook Hacks </h4>
+                </div>
+                <div class="col-md-3 margin20 facts-in">
+                    <h3><i class="fa fa-mobile"></i><span class="counter">6000</span></h3>
+                    <h4>Hours Spent on Mobile </h4>
+                </div>
+                 <div class="col-md-3 margin20 facts-in">
+                    <h3><i class="fa fa-cloud"></i><span class="counter">2500</span></h3>
+                    <h4>Cups of tea</h4>
+                </div>
             </div>
+        </div> -->
+        <div class="container">
+            <div class="row">               
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdy4xO8iPRIEcfoTLnql4H3JprcqziLz4Tbif-g711idTCP7g/viewform?embedded=true#start=embed" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            </div>
+            
         </div>
           
      
@@ -126,10 +109,10 @@ It has become increasingly difficult for the average Joe to keep up with this an
         <!--customizable plugin edit according to your needs-->
         <script src="js/custom.js" type="text/javascript"></script>
           <script>
-            $("#menu").load("menu.tpl.html"); 
-            $("#footer").load("footer.tpl.html"); 
-            $("#header").load("header.tpl.html");
-          
+              jQuery(document).ready(function() {
+                $("#menu").load("menu.tpl.html"); 
+                $("#header").load("header.tpl.html");
+              });
     </script>
     </body>
 </html>
